@@ -16,4 +16,12 @@ public class HelloWs {
 		
 		return "Hello, " + name + "!";
 	}
+	
+	public int sum(int add1, int add2) { 
+		return add1 + add2;
+	}
+	
+	public int multiply(int m1, int m2) {
+		return m1 * m2;
+	}
 }
